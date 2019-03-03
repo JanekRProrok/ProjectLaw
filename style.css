@@ -1,0 +1,418 @@
+﻿* {
+  margin: 0px;
+  padding: 0px;
+  border: 0px;
+}
+
+html {
+  height: 100%;
+  width: 100%;
+  background: #white;
+  font-family: 'Poppins', sans-serif;
+  color: black;
+  font-size: 18px;
+  margin: 0px;
+  padding: 0px;
+}
+
+body
+{
+  font-size: 15pt;
+  z-index: -100;
+}
+
+header {
+  background: black;
+  position: fixed;
+  top: 0px;
+  height: 70px;
+  left: 0px;
+  z-index: 100;
+  width: 100%;
+  cursor: pointer;
+  box-shadow: 0px 15px 28px -6px rgba(0, 0, 0, 0.79);
+  padding: 0px 100px;
+}
+
+#nav-brand {
+  float: left;
+  display: inline;
+}
+
+#nav-title {
+  text-align: left;
+  font-size: 44px;
+  text-decoration: none;
+  font-weight: bold;
+  color: white;
+  margin-left: 25px;
+  border-bottom-style: solid;
+  border-bottom-color: rgba(100,100,100,0);
+  border-bottom-width: 3px;
+  height: 200;
+  display: inline;
+}
+
+#Innestrony {
+  margin: 20px;
+  float: right;
+  font-weight: bold;
+  position: fixed;
+  right: 100px;
+  display: inline;
+}
+
+#Innestrony a {
+  text-decoration: none;
+  color: #cacaca;
+  padding: 3px 10px ;
+  border-bottom-style: solid;
+  border-bottom-color: rgba(100,100,100,0);
+  border-bottom-width: 3px;
+  transition: color 1s, border-bottom-color 1s;
+}
+
+#Innestrony a:hover {
+  text-decoration: none;
+  border-bottom-style: solid;
+  border-bottom-color: rgb(170,0,0);
+  border-bottom-width: 3px;
+  color: #fff;
+  transition: color 1s, border-bottom-color 1s;
+}
+
+
+main {
+  margin-top: 69px;
+}
+
+section#Wstep {
+  margin: 0px 0px 0px;
+  padding: 0;
+  width: 100%;
+  height: calc(100vh - 69px);
+  background: url('./images/prawo-wstep.jpg') no-repeat center center;
+}
+
+div#Wstep-text {
+  text-align: center;
+  padding: 10px 20px 20px;
+  background-color: rgba(80,40,0,0.70);
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  display: inline-table;
+  border: 3px solid white;
+  color: white;
+  margin: 0px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+div#Wstep-text h1 {
+  font-size: 60pt;
+  margin: 0px;
+}
+
+div#Wstep-text p {
+  text-align: center;
+  font-size: 18pt;
+  text-indent: 0cm;
+  padding: 0px;
+  color: white;
+}
+
+div#Onas-text a {
+  text-align: center;
+  font-weight: bold;
+  font-size: 20pt;
+  text-indent: 0cm;
+  padding: 0px;
+  color: rgb(170,0,0);
+}
+
+div#Onas-text a:hover {
+  text-align: center;
+  font-weight: bold;
+  font-size: 20pt;
+  text-indent: 0cm;
+  padding: 0px;
+  color: #333;
+}
+
+section {
+  background: white;
+  width: calc(100% - 14vw);
+  margin-bottom: 100px;
+  padding: 0px 7vw; 
+  z-index: 0;
+}
+
+section#Przepisyprawa {
+  margin-bottom: 0px;
+  padding-bottom: 0px; 
+}
+
+section#Odpowiedzialnosc_karna {
+  margin-bottom: 0px;
+  padding-bottom: 0px; 
+}
+
+section#Onas {
+  margin: 0px 0px 0px;
+  padding: 0;
+  width: 100%;
+  height: calc(100vh - 69px);
+  background: url('./images/Onas-wstep.jpg') no-repeat center center;
+}
+
+div#Onas-text {
+  text-align: center;
+  padding: 10px 20px 20px;
+  background-color: rgba(255,255,255,0.90);
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  display: inline-table;
+  border: 3px solid rgb(80,40,0);
+  color: rgb(80,40,0);
+  margin: 0px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+div#Onas-text h1 {
+  font-size: 60pt;
+  margin: 0px;
+}
+
+div#Onas-text p {
+  text-align: center;
+  font-size: 18pt;
+  text-indent: 0cm;
+  padding: 0px;
+  color: white;
+}
+
+p {
+  text-align: justify;
+  text-indent: 1cm;
+  padding: 0px 0px 5px;
+  color: black;
+}
+
+a {
+  text-decoration: none;
+  color: #FF9800;
+  transition: color 0.5s;
+}
+
+a:hover {
+  text-decoration: none;
+  color: rgb(170,0,0);
+  transition: color 0.5s
+}
+
+footer {
+  background-color: rgb(80,40,0);
+  height: 100px;
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  margin: 0px;
+  bottom: 0;
+  z-index: -10;
+  position: fixed;
+}
+
+h1 {
+  font-size: 50px;
+  margin-top: 10px;
+  text-align: center;
+  z-index: 1;
+}
+
+h2 /* Nagłówki tematów*/ {
+  padding: 20px 0px 10px 20px;
+  color: black;
+  text-indent: 1cm;
+  font-size: 27px;
+}
+
+h3 /* Terminy */  {
+  text-indent: 1cm;
+  padding: 0px 0px 10px 20px;
+}
+
+ol {
+  list-style-type: decimal;
+  padding: 0px 0px 0px 38px;
+}
+
+ul {
+  list-style-type: disc;
+  padding: 0px 0px 0px 38px;
+}
+
+dl {
+  margin: 10px 0px;
+  text-align: justify;
+}
+
+dt {
+  text-indent: 1.25cm;
+  margin-top: 5px;
+  font-weight: bold;
+}
+
+#Licencje {
+  padding-bottom: 40px;
+}
+
+#Zrodla {
+  padding-bottom: 40px;
+}
+
+#Tworcy {
+  margin-bottom: 0px;
+}
+
+#Terminologia {
+  padding-bottom: 40px
+}
+
+#Terminologia h1 {
+  font-size: 30px;
+  margin-top: 10px;
+  text-align: center;
+  z-index: 1;
+  padding-top: 20px;
+  margin-bottom: 40px;
+}
+
+footer a {
+  display: inline-table;
+  border-radius: 3px;
+  background-color: rgb(115,75,0);
+  color: white;
+  border: 2px solid white;
+  padding: 8px 6px 6px 6px;
+  transition: background-color 1s, color 1s, border-color 1s;
+  margin: 20px 0;
+  top: 50%;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+footer a:hover {
+  background-color: white;
+  color: rgb(80,40,0);
+  border-color: rgb(115,75,0);
+  transition: background-color 1s, color 1s, border-color 1s;
+  text-decoration: none;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+/* Przycisk - Do góry */
+
+#button {
+  display: inline-block;
+  background-color: #FF9800;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  border-radius: 4px;
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  transition: background-color .3s, 
+    opacity .5s, visibility .5s;
+  opacity: 0;
+  visibility: hidden;
+  z-index: 1000;
+}
+
+#button::after {
+  content: "\f077";
+  font-family: FontAwesome;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 2em;
+  line-height: 50px;
+  color: #fff;
+}
+
+#button:hover {
+  cursor: pointer;
+  background-color: #333;
+}
+
+#button:active {
+  background-color: #555;
+}
+
+#button.show {
+  opacity: 1;
+  visibility: visible;
+}
+
+
+/* Powiadomienie */
+
+#hideme {
+  background-color: white;
+  margin: 0px;
+  padding: 40px;
+  padding-bottom: 20px;
+}
+
+.hide {
+  text-align: center;
+  padding: 20px;
+  background-color: rgb(80,40,0);
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  display: flex;
+  border: 3px solid white;
+  color: white; 
+}
+
+.hide p {
+  text-align: center;
+  color: white;
+  font-size: 15pt;
+  display: inline;
+  text-indent: 0cm;
+  padding: 0px;
+}
+
+.hide a {
+  margin: 0px;
+  font-size: 20pt;
+  float: right;
+  font-weight: bold;
+  display: inline;
+  text-decoration: none;
+  padding: 27px 10px 10px ;
+  transition: color 1s;
+}
+
+.hide a:hover {
+  text-decoration: none;
+  color: #fff;
+  transition: color 1s;
+  display: inline;
+}
